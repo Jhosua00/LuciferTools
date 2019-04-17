@@ -7,8 +7,6 @@ cyan='\033[36;1m'
 merah='\033[31;1m'
 putih='\033[37;1m'
 kuning='\033[33;1m'
-
-python2 password.py
 #ini banner atau nama judul
 figlet -f smslant "LUCIFER" | lolcat
 echo "=================================================" | lolcat
