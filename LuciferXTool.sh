@@ -172,12 +172,8 @@ echo $i"Silahkan di pakai semoga bermanfaat Buat anda"
 sleep 2
 echo $pur"Bila Ada Kesalahan Anda Bisa Nanya Melalui Via"
 sleep 2
-echo $ku"Facebook :"$i" Rahmad Ramadhani"
-echo $ku"YouTube  :"$i" YouTube RMD"
-echo $ku"WhatsApp :"$i" 0887882xxxx"
-sleep 2
-echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
-sleep 2
-echo $pur"SUBSCRIBE MY CHANNEL { YOUTUBE RMD }"
+echo $ku"Facebook :"$i" JHOSUA SAUT MARULU"
+echo $ku"WhatsApp :"$i" 085275684845"
+sleep2
 exit
 fi
