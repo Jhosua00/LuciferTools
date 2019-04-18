@@ -11,49 +11,36 @@ echo
 python2 password.py
 echo
 clear
-
-figlet LUCIFER V1 | lolcat
-
 echo
-echo $pu "===========================================>
-echo $cy " AUTHOR        :  JHOSUA SAUT MARULI"
-echo $cy " WhatsApp      :  085275684845"
-echo $cy " TYPE\VERSIONN :  TOOL INSTALLER V.1.1"
-echo $pu "===========================================>
-echo $i"LIST TOOL:"
-echo $i"1. REPORT FB"
-echo "=============================================" | lolcat
-echo $ku"2. BRUTE PORCE"
-echo "=============================================" | lolcat
-echo $cy"3. BRUTE FORCE FB CRACKER"
-echo "=============================================" | lolcat
-echo $i"4. MBF"
-echo "=============================================" | lolcat
-echo $pur"5. CLONING YAHOO"
-echo "=============================================" | lolcat
-echo $me"6. OSIF"
-echo "=============================================" | lolcat
-echo $pu"7. DDOS"
-echo "=============================================" | lolcat
-echo $ku"8. BOT REACTION FACEBOOK"
-echo "=============================================" | lolcat
-echo $me"9. SPAM CALL"
-echo "=============================================" | lolcat
-echo $cy"10.SPAM WHATSHAPP"
-echo "=============================================" | lolcat
-echo $i"11. YOUTUBE-DL"
-echo "=============================================" | lolcat
-echo $i"12. LACAK LOKASI"
-echo "=============================================" | lolcat
-echo $m"13. EXIT"
-o
-echo  "╭─[PILIH NOMORNYA]"
-read -p "   ╰─root@./LUCIFER=" pil;
+echo $pur"==================="$cy" ==================="
+echo $pu"  AUTHOR  :  JHOSUA SAUT MARULI  "$i"                   
+echo $pu"  WhatsApp:  085275684845"$i"                
+echo $pu"  GMAIL   :  jhosuasautmaruli0079@gmail.com"
+echo $pu"  FROM    :  Batangtoru CYBER                
+echo $pur"==================="$cy" ==================="
+echo
+echo $cy"MeNu BRUTEPORCE NeWS:"
+echo $ku"["$me"1"$ku"]"$i" REPORT FB"
+echo $ku"["$me"2"$ku"]"$i" BRUTE PORCE"
+echo $ku"["$me"3"$ku"]"$i" BRUTE FORCE FB CRACKER"
+echo $ku"["$me"4"$ku"]"$i" MBF"
+echo $ku"["$me"5"$ku"]"$i" CLONING YAHOO"
+echo $ku"["$me"6"$ku"]"$i" OSIF"
+echo $ku"["$me"7"$ku"]"$i" PROFILEGUARD FB"
+echo $ku"["$me"8"$ku"]"$i" BOT REACTION FACEBOOK"
+echo $ku"["$me"9"$ku"]"$i" SPAM CALL"
+echo $ku"["$me"10"$ku"]"$i" SPAM WHATSHAPP"
+echo $ku"["$me"11"$ku"]"$i" YOUTUBE-DL"
+echo $ku"["$me"12"$ku"]"$i" LACAK LOKASI"
+echo $i"["$me"13"$i"]"$ku" EXIT"
+echo
+echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
+read -p"Ôò¦ÔöÇ>> " pil
 
 if [ $pil = 1 ]
 then
 clear
-figlet -f slant "INSTAL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/IlayTamvan/Report.git
 cd Report
@@ -64,17 +51,17 @@ fi
 if [ $pil = 2 ]
 then
 clear
-figlet -f slant "INSTALL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/Senitopeng/fbbrute.git
 cd fbbrute
 python2 jomblo.py
 fi
 
-[ $pil = 3 ]
+if [ $pil = 3 ]
 then
 clear
-figlet -f slant "INSTALL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/FR13ND8/Fb-Cracker-v.3.git
 cd Fb-Cracker-v.3
@@ -84,17 +71,17 @@ fi
 if [ $pil = 4 ]
 then
 clear
-figlet -f slant "INSTALL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/tikuskecil/multi-bruteforce-facebook.git
 cd multi-bruteforce-facebook
 python2 MBF.py
 fi
 
-[ $pil = 5 ]
+if [ $pil = 5 ]
 then
 clear
-figlet -f slant "INSTALL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/wahyuandhika/YahooCloning.git
 cd YahooCloning
@@ -106,7 +93,7 @@ fi
 if [ $pil = 6 ]
 then
 clear
-figlet -f slant "INSTALL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/CiKu370/OSIF.git
 cd OSIF
@@ -114,20 +101,20 @@ pip2 install -r requirements.txt
 python2 osif.py
 fi
 
-[ $pil = 7 ]
+if [ $pil = 7 ]
 then
 clear
-figlet -f slant "INSTALL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/RaphSoft/lain-lain
-cd lain-lain
-python2 mbledos.py
+git clone https://github.com/jaxBCD/FBshield.git
+cd FBshield
+python2 guard.py
 fi
 
 if [ $pil = 8 ]
 then
 clear
-figlet -f slant "INSTALL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/edi-nasa12/ROBOT.git
 cd ROBOT
@@ -137,16 +124,17 @@ fi
 if [ $pil = 9 ]
 then
 clear
-figlet -f slant "INSTALL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/Aditya021/SpamCall
 cd SpamCall
+php SpamCall.php
 fi
 
-[ $pil = 10 ]
+if [ $pil = 10 ]
 then
 clear
-figlet -f slant "INSTAL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/4L13199/LITESPAM.git
 cd LITESPAM
@@ -156,7 +144,7 @@ fi
 if [ $pil = 11 ]
 then
 clear
-figlet -f slant "INSTALL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/rahmadxyz/sub-bot.git
 cd sub-bot
@@ -166,25 +154,30 @@ fi
 if [ $pil = 12 ]
 then
 clear
-figlet -f slant "INSTALL..."|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/thelinuxchoice/locator.git
 cd locator
 bash locator.sh
 fi
 
-if $pil = 13 ]
+if [ $pil = 13 ]
 then
 clear
-figlet -f slant "EXIT..." | lolcat
+figlet -f slant "W A I T"|Ulolcat
 sleep 2
 echo $cy"Terima Kasih sudah mengunakan Tools ini"
 sleep 2
-echo "see you...."
+echo $i"Silahkan di pakai semoga bermanfaat Buat anda"
 sleep 2
-echo $pur"Bila kurang jelas tanyak via"
+echo $pur"Bila Ada Kesalahan Anda Bisa Nanya Melalui Via"
 sleep 2
-echo $ku"Facebook :"$i" Jhosua Saut Maruli"
-echo $ku"WhatsApp :"$i" 085275684845"
+echo $ku"Facebook :"$i" Rahmad Ramadhani"
+echo $ku"YouTube  :"$i" YouTube RMD"
+echo $ku"WhatsApp :"$i" 0887882xxxx"
+sleep 2
+echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
+sleep 2
+echo $pur"SUBSCRIBE MY CHANNEL { YOUTUBE RMD }"
 exit
 fi
